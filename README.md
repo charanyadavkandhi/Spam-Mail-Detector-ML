@@ -40,4 +40,4 @@ The model predicts whether a given SMS message is Spam or Ham.
 ## Author
 
 Kandhi Charan Yadav
-B.Tech CSE, SR University
+B.Tech Computer Science and Engineering
