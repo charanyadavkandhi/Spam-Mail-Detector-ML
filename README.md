@@ -2,35 +2,20 @@
 
 ## 📌 Overview
 
-Spam emails are one of the most common cybersecurity and communication challenges faced by users worldwide. This project develops a Machine Learning-based Spam Mail Detection System capable of classifying emails as Spam or Ham (Legitimate) using Natural Language Processing (NLP) techniques.
+Spam emails are one of the most common cybersecurity threats, causing unwanted communication, phishing attacks, and information overload. This project develops a Machine Learning-based Spam Mail Detection System that classifies emails as Spam or Ham (Legitimate) using Natural Language Processing (NLP) techniques.
 
-The system performs text preprocessing, feature extraction, model training, and evaluation to accurately identify unwanted emails and improve email security.
+The system preprocesses email text, extracts meaningful features, trains a machine learning model, and evaluates its performance using classification metrics.
 
 ---
 
 ## 🎯 Objectives
 
-* Detect spam emails automatically
+* Automatically classify emails as Spam or Ham
 * Apply Natural Language Processing (NLP) techniques
-* Preprocess and clean email text data
-* Train Machine Learning classification models
-* Evaluate model performance using standard metrics
-* Reduce false positives and improve classification accuracy
-
----
-
-## 📂 Dataset
-
-The dataset contains labeled email messages categorized as:
-
-* Spam Emails
-* Ham (Legitimate) Emails
-
-Features include:
-
-* Email Text Content
-* Spam/Ham Labels
-* Processed Text Features
+* Perform text preprocessing and feature extraction
+* Train machine learning classification models
+* Evaluate classification performance
+* Improve email filtering and security
 
 ---
 
@@ -42,6 +27,21 @@ Features include:
 * NumPy
 * Matplotlib
 * Natural Language Processing (NLP)
+
+---
+
+## 📂 Dataset
+
+The dataset contains email messages labeled as:
+
+* Spam Emails
+* Ham (Legitimate) Emails
+
+Dataset Features:
+
+* Email Content
+* Spam/Ham Labels
+* Processed Text Features
 
 ---
 
@@ -57,11 +57,9 @@ Features include:
 
 ✅ Machine Learning Model Training
 
-✅ Performance Evaluation
+✅ Accuracy Evaluation
 
 ✅ Confusion Matrix Analysis
-
-✅ Accuracy Visualization
 
 ---
 
@@ -70,7 +68,7 @@ Features include:
 ### Data Preprocessing
 
 * Text Cleaning
-* Lowercasing
+* Lowercase Conversion
 * Stop Word Removal
 * Tokenization
 
@@ -81,13 +79,13 @@ Features include:
 
 ### Model Training
 
-The classification model is trained using machine learning techniques to distinguish spam emails from legitimate emails.
+A Machine Learning classification model is trained to distinguish spam emails from legitimate emails.
 
 ---
 
 ## 📊 Evaluation Metrics
 
-The model performance is evaluated using:
+The model is evaluated using:
 
 * Accuracy Score
 * Confusion Matrix
@@ -99,35 +97,35 @@ The model performance is evaluated using:
 
 ## 📊 Spam vs Ham Distribution
 
-![Spam vs Ham](Images/Spam%20vs%20Ham.png)
+![Spam vs Ham](images/Spam%20vs%20Ham.png)
 
 ---
 
 ## 🎯 Model Accuracy
 
-![Accuracy](Images/Accuracy.png)
+![Accuracy](images/Accuracy.png)
 
 ---
 
 ## 🔥 Confusion Matrix
 
-![Confusion Matrix](Images/Confusion%20Matrix.png)
+![Confusion Matrix](images/Confusion%20Matrix.png)
 
 ---
 
 ## 📈 Results
 
-Key outcomes of the project include:
+Key outcomes of the project:
 
-✅ Successful classification of spam and legitimate emails
+✅ Successfully classified spam and legitimate emails
 
-✅ High model accuracy in spam detection
+✅ Achieved high prediction accuracy
 
-✅ Effective use of NLP techniques for text processing
+✅ Demonstrated effective use of NLP techniques
 
-✅ Improved understanding of machine learning-based email filtering
+✅ Improved understanding of text classification models
 
-✅ Visualization of classification performance through confusion matrix analysis
+✅ Visualized model performance using confusion matrix analysis
 
 ---
 
@@ -136,7 +134,7 @@ Key outcomes of the project include:
 ```text
 Spam-Mail-Detector-ML/
 │
-├── Images/
+├── images/
 │   ├── Accuracy.png
 │   ├── Confusion Matrix.png
 │   └── Spam vs Ham.png
@@ -158,7 +156,7 @@ Spam-Mail-Detector-ML/
 * Web Application Deployment
 * Email Client Integration
 * Multi-Language Spam Detection
-* Explainable AI for Prediction Interpretation
+* Explainable AI Techniques
 
 ---
 
@@ -170,13 +168,13 @@ Clone the repository:
 git clone https://github.com/charanyadavkandhi/Spam-Mail-Detector-ML.git
 ```
 
-Navigate to the project directory:
+Navigate to the project folder:
 
 ```bash
 cd Spam-Mail-Detector-ML
 ```
 
-Install dependencies:
+Install required packages:
 
 ```bash
 pip install pandas numpy scikit-learn matplotlib
